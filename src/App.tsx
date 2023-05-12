@@ -1,10 +1,14 @@
 import './App.css'
 
+//components
+import ProjectsPage from './Components/ProjectsPage'
+
 function App() {
 
   return (
     <>
-     <p>Project management tool</p>       
+     
+     <ProjectsPage/>       
     </>
   )
 }
